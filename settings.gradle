@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Gpa_JakeGusew_Calculator"

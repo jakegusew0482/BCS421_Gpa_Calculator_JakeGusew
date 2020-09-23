@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity_layout_portrait"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_course1"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/textViewCourse1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_course2"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/textViewCourse2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_course1" />
+
+    <TextView
+        android:id="@+id/textView_course3"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/textViewCourse3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_course2" />
+
+    <TextView
+        android:id="@+id/textView_course4"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/textViewCourse4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_course3" />
+
+    <TextView
+        android:id="@+id/textView_course5"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/textViewCourse5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_course4" />
+
+    <EditText
+        android:id="@+id/editText_course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="66dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView_course1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView_course2"
+        app:layout_constraintTop_toBottomOf="@+id/editText_course1" />
+
+    <EditText
+        android:id="@+id/editText_course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView_course3"
+        app:layout_constraintTop_toBottomOf="@+id/editText_course2" />
+
+    <EditText
+        android:id="@+id/editText_course4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView_course4"
+        app:layout_constraintTop_toBottomOf="@+id/editText_course3" />
+
+    <EditText
+        android:id="@+id/editText_course5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textView_course5"
+        app:layout_constraintTop_toBottomOf="@+id/editText_course4" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/calculateButton_calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_course5" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:textSize="32dp"
+        app:layout_constraintStart_toEndOf="@+id/button_calculate"
+        app:layout_constraintTop_toBottomOf="@id/editText_course5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

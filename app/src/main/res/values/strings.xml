@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GpaCalculator</string>
+    <string name="textViewCourse1">Course 1</string>
+    <string name="textViewCourse2">Course 2</string>
+    <string name="textViewCourse3">Course 3</string>
+    <string name="textViewCourse4">Course 4</string>
+    <string name="textViewCourse5">Course 5</string>
+    <string name="calculateButton_calculate">Calculate GPA</string>
+    <string name="calculateButton_clear">Clear Form</string>
+</resources>
